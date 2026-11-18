@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ResumeJobMatch AI</title>
+<style>
+:root{--bg:#f5f6fa;--card:#fff;--ink:#181c27;--mut:#626b80;--line:#e2e5ee;--brand:#3355e8;--soft:#e8edff;--ok:#117a4d;--okb:#e0f5ea;--bad:#a9362a;--badb:#fde8e5;--warn:#8a5a00;--warnb:#fff1d6}
+@media(prefers-color-scheme:dark){:root{--bg:#10121a;--card:#1a1d28;--ink:#eceef5;--mut:#9aa3b8;--line:#2a2f3d;--brand:#8aa3ff;--soft:#242d57;--ok:#6fd6a3;--okb:#16352a;--bad:#ff9a8e;--badb:#3d1f1b;--warn:#f1c068;--warnb:#3a2f14}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+main{max-width:980px;margin:0 auto;padding:28px 16px 60px}h1{margin:0;font-size:26px}.sub{color:var(--mut);margin:4px 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+.drop{display:block;border:2px dashed var(--line);border-radius:12px;padding:22px;text-align:center;color:var(--mut);cursor:pointer}.drop.over{border-color:var(--brand);background:var(--soft)}
+textarea,input[type=text],input[type=number]{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}textarea{min-height:110px;margin-top:10px}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;align-items:end}.row>div{flex:1;min-width:150px}label.l{display:block;font-size:12px;color:var(--mut);margin-bottom:3px}
+.chk{display:flex;gap:6px;align-items:center;font-size:14px;padding-bottom:9px}
+button{font:inherit;font-weight:600;border:0;border-radius:10px;padding:11px 20px;background:var(--brand);color:#fff;cursor:pointer}button:disabled{opacity:.5}
+.chip{display:inline-block;border-radius:999px;padding:2px 10px;margin:2px 4px 2px 0;font-size:13px;background:var(--soft);color:var(--brand)}
+.ok{background:var(--okb);color:var(--ok)}.bad{background:var(--badb);color:var(--bad)}.warn{background:var(--warnb);color:var(--warn)}
+.job{display:grid;grid-template-columns:72px 1fr;gap:14px}.ring{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:16px;background:conic-gradient(var(--brand) calc(var(--p)*1%),var(--line) 0)}.ring span{width:50px;height:50px;border-radius:50%;background:var(--card);display:grid;place-items:center}
+.job h3{margin:0;font-size:16px}.meta{color:var(--mut);font-size:13px;margin-bottom:6px}.bars{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:6px 14px;margin:8px 0}
+.bar small{display:flex;justify-content:space-between;color:var(--mut);font-size:12px}.bar i{display:block;height:5px;border-radius:3px;background:var(--line);overflow:hidden}.bar b{display:block;height:100%;background:var(--brand)}
+a.apply{font-size:13px;color:var(--brand);text-decoration:none;font-weight:600}.err{color:var(--bad);margin-top:8px}.hidden{display:none}.srcs{font-size:12px;color:var(--mut)}
+</style></head>
+<body><main>
+<h1>ResumeJobMatch AI</h1>
+<p class="sub">Semantic matching, explainable scores and skill-gap analysis. Your resume is processed by the API you run, not stored.</p>
+<section class="card">
+  <label class="drop" id="drop">Drop a PDF, DOCX or TXT here, or click to choose<input id="file" type="file" accept=".pdf,.docx,.txt" hidden></label>
+  <div id="fname" class="srcs"></div>
+  <textarea id="text" placeholder="…or paste your resume text"></textarea>
+  <div class="row">
+    <div><label class="l">Preferred location</label><input type="text" id="loc" placeholder="e.g. Chennai"></div>
+    <div style="max-width:110px"><label class="l">Results</label><input type="number" id="k" value="10" min="1" max="30"></div>
+    <label class="chk"><input type="checkbox" id="remote"> Remote only</label>
+    <label class="chk"><input type="checkbox" id="live"> Live job boards</label>
+    <button id="go">Find matches</button>
+  </div>
+  <div class="err" id="err"></div>
+</section>
+<div id="out"></div>
+</main>
+<script>
+const $=i=>document.getElementById(i);let file=null;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const chips=(a,c)=>a.map(x=>`<span class="chip ${c}">${esc(x)}</span>`).join('');
+$('file').onchange=e=>{file=e.target.files[0];$('fname').textContent=file?file.name:''};
+const d=$('drop');['dragover','dragenter'].forEach(v=>d.addEventListener(v,e=>{e.preventDefault();d.classList.add('over')}));
+['dragleave','drop'].forEach(v=>d.addEventListener(v,e=>{e.preventDefault();d.classList.remove('over')}));
+d.addEventListener('drop',e=>{file=e.dataTransfer.files[0];$('fname').textContent=file?file.name:''});
+$('go').onclick=async()=>{
+  $('err').textContent='';const fd=new FormData();
+  if(file)fd.append('file',file);fd.append('text',$('text').value);fd.append('location',$('loc').value);
+  fd.append('top_k',$('k').value);fd.append('remote_only',$('remote').checked);fd.append('live',$('live').checked);
+  $('go').disabled=true;$('go').textContent='Matching…';
+  try{const r=await fetch('/api/match',{method:'POST',body:fd});const j=await r.json();
+    if(!r.ok)throw new Error(j.detail||'Request failed');render(j)}
+  catch(e){$('err').textContent=e.message}
+  $('go').disabled=false;$('go').textContent='Find matches';
+};
+function render(r){
+  const p=r.profile;
+  let h=`<section class="card"><b>Your profile</b><div class="srcs">Level: ${esc(p.level)} · ~${p.years} yrs · model: ${esc(r.backend)} · ${r.candidates} jobs ranked · sources: ${esc(Object.entries(r.sources).map(([k,v])=>k+': '+v).join(', '))}</div>
+  <p style="margin:8px 0 4px">${p.roles.slice(0,3).map(x=>`<span class="chip">${esc(x.role)} ${(x.confidence*100).toFixed(0)}%</span>`).join('')}</p>${chips(p.skills,'')}</section>`;
+  if(r.skills_to_learn.length)h+=`<section class="card"><b>Skills that unlock the most of these jobs</b><p>${r.skills_to_learn.map(g=>`<span class="chip warn">${esc(g.skill)} · ${g.jobs_requiring} jobs</span>`).join('')}</p></section>`;
+  const names={semantic:'Semantic',lexical:'Keywords',skills:'Skills',title:'Role fit',level:'Level'};
+  h+=r.matches.map(m=>{const j=m.job;return `<section class="card job"><div class="ring" style="--p:${m.score}"><span>${Math.round(m.score)}</span></div><div>
+   <h3>${esc(j.title)}</h3><div class="meta">${esc(j.company)} · ${esc(j.location||'—')}${j.remote?' · Remote':''} · ${esc(j.source)}</div>
+   <div class="bars">${Object.entries(m.components).map(([k,v])=>`<div class="bar"><small><span>${names[k]}</span><span>${Math.round(v*100)}</span></small><i><b style="width:${v*100}%"></b></i></div>`).join('')}</div>
+   ${m.matched.length?`<div>${chips(m.matched,'ok')}</div>`:''}${m.transferable.length?`<div>${m.transferable.map(t=>`<span class="chip warn">${esc(t.needs)} ≈ ${esc(t.you_have)}</span>`).join('')}</div>`:''}
+   ${m.missing_required.length?`<div>${chips(m.missing_required,'bad')}</div>`:''}
+   <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">View job →</a></div></section>`}).join('');
+  $('out').innerHTML=h;window.scrollTo({top:$('out').offsetTop-10,behavior:'smooth'});
+}
+</script></body></html>

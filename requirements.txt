@@ -1,0 +1,10 @@
+numpy>=1.26
+scikit-learn>=1.4
+pdfplumber>=0.11
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+httpx>=0.27
+pytest>=8.0
+# Optional: dense transformer embeddings (auto-detected; falls back to TF-IDF+LSA)
+# sentence-transformers>=3.0

@@ -1,0 +1,1903 @@
+[
+ {
+  "id": "sample-001",
+  "title": "Intern ML Engineer",
+  "company": "Brightline",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: Freshers and recent graduates welcome. Hands-on experience with tensorflow, numpy, nlp, python, machine learning, mlops. Nice to have: computer vision, deep learning.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/001",
+  "source": "sample",
+  "required": [
+   "tensorflow",
+   "numpy",
+   "nlp",
+   "python",
+   "machine learning",
+   "mlops"
+  ],
+  "preferred": [
+   "computer vision",
+   "deep learning"
+  ],
+  "min_years": 0.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-002",
+  "title": "Junior ML Engineer",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: 1+ years of experience. Hands-on experience with transformers, numpy, machine learning, pytorch, aws. Nice to have: python, llm, deep learning.",
+  "location": "Delhi NCR",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/002",
+  "source": "sample",
+  "required": [
+   "transformers",
+   "numpy",
+   "machine learning",
+   "pytorch",
+   "aws"
+  ],
+  "preferred": [
+   "python",
+   "llm",
+   "deep learning"
+  ],
+  "min_years": 1.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-003",
+  "title": "ML Engineer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: 3+ years of experience. Hands-on experience with machine learning, docker, mlflow, numpy, python, pytorch, computer vision. Nice to have: mlops, llm.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/003",
+  "source": "sample",
+  "required": [
+   "machine learning",
+   "docker",
+   "mlflow",
+   "numpy",
+   "python",
+   "pytorch",
+   "computer vision"
+  ],
+  "preferred": [
+   "mlops",
+   "llm"
+  ],
+  "min_years": 3.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-004",
+  "title": "Senior ML Engineer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: 5+ years of experience. Hands-on experience with docker, mlops, transformers, nlp, deep learning, machine learning, aws. Nice to have: pandas, pytorch.",
+  "location": "Mumbai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/004",
+  "source": "sample",
+  "required": [
+   "docker",
+   "mlops",
+   "transformers",
+   "nlp",
+   "deep learning",
+   "machine learning",
+   "aws"
+  ],
+  "preferred": [
+   "pandas",
+   "pytorch"
+  ],
+  "min_years": 5.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-005",
+  "title": "Associate ML Engineer",
+  "company": "Brightline",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: Freshers and recent graduates welcome. Hands-on experience with numpy, pandas, nlp, mlops, aws. Nice to have: computer vision, transformers, mlflow.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/005",
+  "source": "sample",
+  "required": [
+   "numpy",
+   "pandas",
+   "nlp",
+   "mlops",
+   "aws"
+  ],
+  "preferred": [
+   "computer vision",
+   "transformers",
+   "mlflow"
+  ],
+  "min_years": 0.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-006",
+  "title": "Intern ML Engineer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Train, evaluate and deploy machine learning models to production. Build data pipelines and feature stores for model training. Monitor model drift and retrain models automatically. Requirements: Freshers and recent graduates welcome. Hands-on experience with pandas, machine learning, docker, tensorflow, mlops, aws, scikit-learn. Nice to have: nlp, deep learning, python.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/006",
+  "source": "sample",
+  "required": [
+   "pandas",
+   "machine learning",
+   "docker",
+   "tensorflow",
+   "mlops",
+   "aws",
+   "scikit-learn"
+  ],
+  "preferred": [
+   "nlp",
+   "deep learning",
+   "python"
+  ],
+  "min_years": 0.0,
+  "role_label": "Machine Learning Engineer"
+ },
+ {
+  "id": "sample-007",
+  "title": "Intern Data Scientist",
+  "company": "Helio Cloud",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: Freshers and recent graduates welcome. Hands-on experience with data visualization, sql, python, statistics, scikit-learn. Nice to have: xgboost, numpy, feature engineering.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/007",
+  "source": "sample",
+  "required": [
+   "data visualization",
+   "sql",
+   "python",
+   "statistics",
+   "scikit-learn"
+  ],
+  "preferred": [
+   "xgboost",
+   "numpy",
+   "feature engineering"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-008",
+  "title": "Junior Data Scientist",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: 1+ years of experience. Hands-on experience with numpy, data visualization, statistics, python, spark. Nice to have: scikit-learn, feature engineering, sql.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/008",
+  "source": "sample",
+  "required": [
+   "numpy",
+   "data visualization",
+   "statistics",
+   "python",
+   "spark"
+  ],
+  "preferred": [
+   "scikit-learn",
+   "feature engineering",
+   "sql"
+  ],
+  "min_years": 1.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-009",
+  "title": "Data Scientist",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: 3+ years of experience. Hands-on experience with scikit-learn, machine learning, feature engineering, statistics, data visualization, python. Nice to have: sql, numpy.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/009",
+  "source": "sample",
+  "required": [
+   "scikit-learn",
+   "machine learning",
+   "feature engineering",
+   "statistics",
+   "data visualization",
+   "python"
+  ],
+  "preferred": [
+   "sql",
+   "numpy"
+  ],
+  "min_years": 3.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-010",
+  "title": "Senior Data Scientist",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: 5+ years of experience. Hands-on experience with statistics, machine learning, data visualization, sql, numpy, spark. Nice to have: feature engineering, scikit-learn, a/b testing.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/010",
+  "source": "sample",
+  "required": [
+   "statistics",
+   "machine learning",
+   "data visualization",
+   "sql",
+   "numpy",
+   "spark"
+  ],
+  "preferred": [
+   "feature engineering",
+   "scikit-learn",
+   "a/b testing"
+  ],
+  "min_years": 5.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-011",
+  "title": "Associate Data Scientist",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: Freshers and recent graduates welcome. Hands-on experience with machine learning, statistics, spark, feature engineering, pandas. Nice to have: python, sql.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/011",
+  "source": "sample",
+  "required": [
+   "machine learning",
+   "statistics",
+   "spark",
+   "feature engineering",
+   "pandas"
+  ],
+  "preferred": [
+   "python",
+   "sql"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-012",
+  "title": "Intern Data Scientist",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Run experiments and statistical analyses to guide product decisions. Build predictive models and communicate findings to stakeholders. Design A/B tests and interpret results. Requirements: Freshers and recent graduates welcome. Hands-on experience with python, machine learning, sql, a/b testing, scikit-learn, numpy. Nice to have: pandas, xgboost, statistics.",
+  "location": "Mumbai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/012",
+  "source": "sample",
+  "required": [
+   "python",
+   "machine learning",
+   "sql",
+   "a/b testing",
+   "scikit-learn",
+   "numpy"
+  ],
+  "preferred": [
+   "pandas",
+   "xgboost",
+   "statistics"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Scientist"
+ },
+ {
+  "id": "sample-013",
+  "title": "Intern Data Analyst",
+  "company": "Helio Cloud",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: Freshers and recent graduates welcome. Hands-on experience with data visualization, looker, google analytics, excel, tableau, data analysis. Nice to have: sql, power bi, statistics.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/013",
+  "source": "sample",
+  "required": [
+   "data visualization",
+   "looker",
+   "google analytics",
+   "excel",
+   "tableau",
+   "data analysis"
+  ],
+  "preferred": [
+   "sql",
+   "power bi",
+   "statistics"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-014",
+  "title": "Junior Data Analyst",
+  "company": "Zenith Soft",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: 1+ years of experience. Hands-on experience with data analysis, google analytics, sql, excel, statistics. Nice to have: etl, power bi.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/014",
+  "source": "sample",
+  "required": [
+   "data analysis",
+   "google analytics",
+   "sql",
+   "excel",
+   "statistics"
+  ],
+  "preferred": [
+   "etl",
+   "power bi"
+  ],
+  "min_years": 1.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-015",
+  "title": "Data Analyst",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: 3+ years of experience. Hands-on experience with tableau, google analytics, data visualization, power bi, data analysis. Nice to have: python, statistics, looker.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/015",
+  "source": "sample",
+  "required": [
+   "tableau",
+   "google analytics",
+   "data visualization",
+   "power bi",
+   "data analysis"
+  ],
+  "preferred": [
+   "python",
+   "statistics",
+   "looker"
+  ],
+  "min_years": 3.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-016",
+  "title": "Senior Data Analyst",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: 5+ years of experience. Hands-on experience with etl, looker, python, excel, google analytics, sql. Nice to have: data analysis, data visualization, statistics.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/016",
+  "source": "sample",
+  "required": [
+   "etl",
+   "looker",
+   "python",
+   "excel",
+   "google analytics",
+   "sql"
+  ],
+  "preferred": [
+   "data analysis",
+   "data visualization",
+   "statistics"
+  ],
+  "min_years": 5.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-017",
+  "title": "Associate Data Analyst",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: Freshers and recent graduates welcome. Hands-on experience with statistics, data analysis, power bi, sql, data visualization. Nice to have: looker, excel, python.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/017",
+  "source": "sample",
+  "required": [
+   "statistics",
+   "data analysis",
+   "power bi",
+   "sql",
+   "data visualization"
+  ],
+  "preferred": [
+   "looker",
+   "excel",
+   "python"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-018",
+  "title": "Intern Data Analyst",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Build dashboards and recurring reports for business teams. Write queries to clean, join and analyse large datasets. Translate business questions into metrics. Requirements: Freshers and recent graduates welcome. Hands-on experience with statistics, looker, google analytics, data analysis, etl. Nice to have: python, excel.",
+  "location": "Delhi NCR",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/018",
+  "source": "sample",
+  "required": [
+   "statistics",
+   "looker",
+   "google analytics",
+   "data analysis",
+   "etl"
+  ],
+  "preferred": [
+   "python",
+   "excel"
+  ],
+  "min_years": 0.0,
+  "role_label": "Data Analyst"
+ },
+ {
+  "id": "sample-019",
+  "title": "Intern Frontend Developer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: Freshers and recent graduates welcome. Hands-on experience with html, rest api, tailwind css, redux, javascript. Nice to have: git, webpack.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/019",
+  "source": "sample",
+  "required": [
+   "html",
+   "rest api",
+   "tailwind css",
+   "redux",
+   "javascript"
+  ],
+  "preferred": [
+   "git",
+   "webpack"
+  ],
+  "min_years": 0.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-020",
+  "title": "Junior Frontend Developer",
+  "company": "Brightline",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: 1+ years of experience. Hands-on experience with redux, tailwind css, vue, gatsby, angular, typescript, html. Nice to have: react, next.js.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/020",
+  "source": "sample",
+  "required": [
+   "redux",
+   "tailwind css",
+   "vue",
+   "gatsby",
+   "angular",
+   "typescript",
+   "html"
+  ],
+  "preferred": [
+   "react",
+   "next.js"
+  ],
+  "min_years": 1.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-021",
+  "title": "Frontend Developer",
+  "company": "Brightline",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: 3+ years of experience. Hands-on experience with git, gatsby, javascript, tailwind css, redux, typescript. Nice to have: vue, webpack.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/021",
+  "source": "sample",
+  "required": [
+   "git",
+   "gatsby",
+   "javascript",
+   "tailwind css",
+   "redux",
+   "typescript"
+  ],
+  "preferred": [
+   "vue",
+   "webpack"
+  ],
+  "min_years": 3.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-022",
+  "title": "Senior Frontend Developer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: 5+ years of experience. Hands-on experience with next.js, webpack, angular, redux, typescript. Nice to have: vue, git, rest api.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/022",
+  "source": "sample",
+  "required": [
+   "next.js",
+   "webpack",
+   "angular",
+   "redux",
+   "typescript"
+  ],
+  "preferred": [
+   "vue",
+   "git",
+   "rest api"
+  ],
+  "min_years": 5.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-023",
+  "title": "Associate Frontend Developer",
+  "company": "Marlow & Co",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: Freshers and recent graduates welcome. Hands-on experience with react, javascript, gatsby, git, tailwind css. Nice to have: vue, rest api.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/023",
+  "source": "sample",
+  "required": [
+   "react",
+   "javascript",
+   "gatsby",
+   "git",
+   "tailwind css"
+  ],
+  "preferred": [
+   "vue",
+   "rest api"
+  ],
+  "min_years": 0.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-024",
+  "title": "Intern Frontend Developer",
+  "company": "Brightline",
+  "description": "Responsibilities: Build responsive, accessible user interfaces and reusable components. Optimise page performance and Core Web Vitals. Collaborate with designers to ship polished features. Requirements: Freshers and recent graduates welcome. Hands-on experience with javascript, gatsby, vue, angular, typescript. Nice to have: rest api, redux.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/024",
+  "source": "sample",
+  "required": [
+   "javascript",
+   "gatsby",
+   "vue",
+   "angular",
+   "typescript"
+  ],
+  "preferred": [
+   "rest api",
+   "redux"
+  ],
+  "min_years": 0.0,
+  "role_label": "Frontend Developer"
+ },
+ {
+  "id": "sample-025",
+  "title": "Intern Backend Engineer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: Freshers and recent graduates welcome. Hands-on experience with django, flask, mongodb, sql, redis, fastapi. Nice to have: kafka, microservices, docker.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/025",
+  "source": "sample",
+  "required": [
+   "django",
+   "flask",
+   "mongodb",
+   "sql",
+   "redis",
+   "fastapi"
+  ],
+  "preferred": [
+   "kafka",
+   "microservices",
+   "docker"
+  ],
+  "min_years": 0.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-026",
+  "title": "Junior Backend Engineer",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: 1+ years of experience. Hands-on experience with sql, postgresql, rest api, redis, mongodb, spring boot. Nice to have: kafka, node.js.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/026",
+  "source": "sample",
+  "required": [
+   "sql",
+   "postgresql",
+   "rest api",
+   "redis",
+   "mongodb",
+   "spring boot"
+  ],
+  "preferred": [
+   "kafka",
+   "node.js"
+  ],
+  "min_years": 1.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-027",
+  "title": "Backend Engineer",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: 3+ years of experience. Hands-on experience with redis, python, docker, node.js, microservices. Nice to have: rest api, django.",
+  "location": "Delhi NCR",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/027",
+  "source": "sample",
+  "required": [
+   "redis",
+   "python",
+   "docker",
+   "node.js",
+   "microservices"
+  ],
+  "preferred": [
+   "rest api",
+   "django"
+  ],
+  "min_years": 3.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-028",
+  "title": "Senior Backend Engineer",
+  "company": "Marlow & Co",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: 5+ years of experience. Hands-on experience with mongodb, sql, postgresql, java, kafka, python, django. Nice to have: redis, node.js.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/028",
+  "source": "sample",
+  "required": [
+   "mongodb",
+   "sql",
+   "postgresql",
+   "java",
+   "kafka",
+   "python",
+   "django"
+  ],
+  "preferred": [
+   "redis",
+   "node.js"
+  ],
+  "min_years": 5.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-029",
+  "title": "Associate Backend Engineer",
+  "company": "Helio Cloud",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: Freshers and recent graduates welcome. Hands-on experience with python, docker, java, postgresql, fastapi, redis, mongodb. Nice to have: rest api, spring boot.",
+  "location": "Mumbai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/029",
+  "source": "sample",
+  "required": [
+   "python",
+   "docker",
+   "java",
+   "postgresql",
+   "fastapi",
+   "redis",
+   "mongodb"
+  ],
+  "preferred": [
+   "rest api",
+   "spring boot"
+  ],
+  "min_years": 0.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-030",
+  "title": "Intern Backend Engineer",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Design and build scalable REST services and data models. Own database performance, caching and reliability. Write automated tests and review code. Requirements: Freshers and recent graduates welcome. Hands-on experience with microservices, mongodb, flask, kafka, django. Nice to have: node.js, redis, java.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/030",
+  "source": "sample",
+  "required": [
+   "microservices",
+   "mongodb",
+   "flask",
+   "kafka",
+   "django"
+  ],
+  "preferred": [
+   "node.js",
+   "redis",
+   "java"
+  ],
+  "min_years": 0.0,
+  "role_label": "Backend Developer"
+ },
+ {
+  "id": "sample-031",
+  "title": "Intern Full Stack Developer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: Freshers and recent graduates welcome. Hands-on experience with express, rest api, react, git, mongodb, docker, javascript. Nice to have: html, postgresql.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/031",
+  "source": "sample",
+  "required": [
+   "express",
+   "rest api",
+   "react",
+   "git",
+   "mongodb",
+   "docker",
+   "javascript"
+  ],
+  "preferred": [
+   "html",
+   "postgresql"
+  ],
+  "min_years": 0.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-032",
+  "title": "Junior Full Stack Developer",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: 1+ years of experience. Hands-on experience with express, react, rest api, html, node.js, postgresql. Nice to have: mongodb, typescript.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/032",
+  "source": "sample",
+  "required": [
+   "express",
+   "react",
+   "rest api",
+   "html",
+   "node.js",
+   "postgresql"
+  ],
+  "preferred": [
+   "mongodb",
+   "typescript"
+  ],
+  "min_years": 1.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-033",
+  "title": "Full Stack Developer",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: 3+ years of experience. Hands-on experience with express, postgresql, docker, react, typescript, javascript. Nice to have: css, html, git.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/033",
+  "source": "sample",
+  "required": [
+   "express",
+   "postgresql",
+   "docker",
+   "react",
+   "typescript",
+   "javascript"
+  ],
+  "preferred": [
+   "css",
+   "html",
+   "git"
+  ],
+  "min_years": 3.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-034",
+  "title": "Senior Full Stack Developer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: 5+ years of experience. Hands-on experience with typescript, mongodb, css, react, git, rest api, html. Nice to have: javascript, express.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/034",
+  "source": "sample",
+  "required": [
+   "typescript",
+   "mongodb",
+   "css",
+   "react",
+   "git",
+   "rest api",
+   "html"
+  ],
+  "preferred": [
+   "javascript",
+   "express"
+  ],
+  "min_years": 5.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-035",
+  "title": "Associate Full Stack Developer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: Freshers and recent graduates welcome. Hands-on experience with node.js, rest api, mongodb, docker, git, typescript. Nice to have: css, express, javascript.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/035",
+  "source": "sample",
+  "required": [
+   "node.js",
+   "rest api",
+   "mongodb",
+   "docker",
+   "git",
+   "typescript"
+  ],
+  "preferred": [
+   "css",
+   "express",
+   "javascript"
+  ],
+  "min_years": 0.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-036",
+  "title": "Intern Full Stack Developer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Build features end to end across the web client and the server API. Design database schemas and integrate third-party services. Ship quickly in a small product team. Requirements: Freshers and recent graduates welcome. Hands-on experience with rest api, react, mongodb, javascript, docker. Nice to have: node.js, css, express.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/036",
+  "source": "sample",
+  "required": [
+   "rest api",
+   "react",
+   "mongodb",
+   "javascript",
+   "docker"
+  ],
+  "preferred": [
+   "node.js",
+   "css",
+   "express"
+  ],
+  "min_years": 0.0,
+  "role_label": "Full Stack Developer"
+ },
+ {
+  "id": "sample-037",
+  "title": "Intern DevOps Engineer",
+  "company": "Kestrel Tech",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: Freshers and recent graduates welcome. Hands-on experience with docker, jenkins, github actions, ci/cd, ansible, aws. Nice to have: prometheus, kubernetes.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/037",
+  "source": "sample",
+  "required": [
+   "docker",
+   "jenkins",
+   "github actions",
+   "ci/cd",
+   "ansible",
+   "aws"
+  ],
+  "preferred": [
+   "prometheus",
+   "kubernetes"
+  ],
+  "min_years": 0.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-038",
+  "title": "Junior DevOps Engineer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: 1+ years of experience. Hands-on experience with terraform, ansible, grafana, azure, github actions. Nice to have: ci/cd, bash.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/038",
+  "source": "sample",
+  "required": [
+   "terraform",
+   "ansible",
+   "grafana",
+   "azure",
+   "github actions"
+  ],
+  "preferred": [
+   "ci/cd",
+   "bash"
+  ],
+  "min_years": 1.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-039",
+  "title": "DevOps Engineer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: 3+ years of experience. Hands-on experience with azure, docker, ansible, gcp, grafana, prometheus. Nice to have: bash, aws.",
+  "location": "Delhi NCR",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/039",
+  "source": "sample",
+  "required": [
+   "azure",
+   "docker",
+   "ansible",
+   "gcp",
+   "grafana",
+   "prometheus"
+  ],
+  "preferred": [
+   "bash",
+   "aws"
+  ],
+  "min_years": 3.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-040",
+  "title": "Senior DevOps Engineer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: 5+ years of experience. Hands-on experience with ci/cd, grafana, linux, github actions, gcp, azure, ansible. Nice to have: kubernetes, aws.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/040",
+  "source": "sample",
+  "required": [
+   "ci/cd",
+   "grafana",
+   "linux",
+   "github actions",
+   "gcp",
+   "azure",
+   "ansible"
+  ],
+  "preferred": [
+   "kubernetes",
+   "aws"
+  ],
+  "min_years": 5.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-041",
+  "title": "Associate DevOps Engineer",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: Freshers and recent graduates welcome. Hands-on experience with grafana, aws, ci/cd, jenkins, docker, azure, prometheus. Nice to have: bash, gcp.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/041",
+  "source": "sample",
+  "required": [
+   "grafana",
+   "aws",
+   "ci/cd",
+   "jenkins",
+   "docker",
+   "azure",
+   "prometheus"
+  ],
+  "preferred": [
+   "bash",
+   "gcp"
+  ],
+  "min_years": 0.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-042",
+  "title": "Intern DevOps Engineer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Automate build, test and deployment pipelines. Manage cloud infrastructure as code and container orchestration. Set up monitoring, alerting and incident response. Requirements: Freshers and recent graduates welcome. Hands-on experience with kubernetes, grafana, ci/cd, github actions, ansible. Nice to have: linux, docker.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/042",
+  "source": "sample",
+  "required": [
+   "kubernetes",
+   "grafana",
+   "ci/cd",
+   "github actions",
+   "ansible"
+  ],
+  "preferred": [
+   "linux",
+   "docker"
+  ],
+  "min_years": 0.0,
+  "role_label": "DevOps Engineer"
+ },
+ {
+  "id": "sample-043",
+  "title": "Intern Mobile Developer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: Freshers and recent graduates welcome. Hands-on experience with flutter, ios, swift, dart, swiftui, android. Nice to have: react native, firebase.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/043",
+  "source": "sample",
+  "required": [
+   "flutter",
+   "ios",
+   "swift",
+   "dart",
+   "swiftui",
+   "android"
+  ],
+  "preferred": [
+   "react native",
+   "firebase"
+  ],
+  "min_years": 0.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-044",
+  "title": "Junior Mobile Developer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: 1+ years of experience. Hands-on experience with swift, firebase, react native, rest api, android. Nice to have: kotlin, swiftui.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/044",
+  "source": "sample",
+  "required": [
+   "swift",
+   "firebase",
+   "react native",
+   "rest api",
+   "android"
+  ],
+  "preferred": [
+   "kotlin",
+   "swiftui"
+  ],
+  "min_years": 1.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-045",
+  "title": "Mobile Developer",
+  "company": "Marlow & Co",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: 3+ years of experience. Hands-on experience with android, firebase, flutter, swiftui, dart. Nice to have: ios, kotlin, react native.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/045",
+  "source": "sample",
+  "required": [
+   "android",
+   "firebase",
+   "flutter",
+   "swiftui",
+   "dart"
+  ],
+  "preferred": [
+   "ios",
+   "kotlin",
+   "react native"
+  ],
+  "min_years": 3.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-046",
+  "title": "Senior Mobile Developer",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: 5+ years of experience. Hands-on experience with swiftui, firebase, swift, rest api, react native, android, ios. Nice to have: flutter, dart.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/046",
+  "source": "sample",
+  "required": [
+   "swiftui",
+   "firebase",
+   "swift",
+   "rest api",
+   "react native",
+   "android",
+   "ios"
+  ],
+  "preferred": [
+   "flutter",
+   "dart"
+  ],
+  "min_years": 5.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-047",
+  "title": "Associate Mobile Developer",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: Freshers and recent graduates welcome. Hands-on experience with dart, android, git, flutter, firebase, swift, ios. Nice to have: react native, swiftui.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/047",
+  "source": "sample",
+  "required": [
+   "dart",
+   "android",
+   "git",
+   "flutter",
+   "firebase",
+   "swift",
+   "ios"
+  ],
+  "preferred": [
+   "react native",
+   "swiftui"
+  ],
+  "min_years": 0.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-048",
+  "title": "Intern Mobile Developer",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Build and release cross-platform and native mobile applications. Integrate APIs, push notifications and analytics. Profile and improve app performance and crash rates. Requirements: Freshers and recent graduates welcome. Hands-on experience with react native, firebase, rest api, flutter, swift, dart. Nice to have: swiftui, ios.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/048",
+  "source": "sample",
+  "required": [
+   "react native",
+   "firebase",
+   "rest api",
+   "flutter",
+   "swift",
+   "dart"
+  ],
+  "preferred": [
+   "swiftui",
+   "ios"
+  ],
+  "min_years": 0.0,
+  "role_label": "Mobile App Developer"
+ },
+ {
+  "id": "sample-049",
+  "title": "Intern QA Automation Engineer",
+  "company": "Brightline",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: Freshers and recent graduates welcome. Hands-on experience with java, jira, cypress, junit, ci/cd, manual testing, postman. Nice to have: pytest, selenium, playwright.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/049",
+  "source": "sample",
+  "required": [
+   "java",
+   "jira",
+   "cypress",
+   "junit",
+   "ci/cd",
+   "manual testing",
+   "postman"
+  ],
+  "preferred": [
+   "pytest",
+   "selenium",
+   "playwright"
+  ],
+  "min_years": 0.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-050",
+  "title": "Junior QA Automation Engineer",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: 1+ years of experience. Hands-on experience with jira, junit, jmeter, ci/cd, postman. Nice to have: pytest, manual testing.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/050",
+  "source": "sample",
+  "required": [
+   "jira",
+   "junit",
+   "jmeter",
+   "ci/cd",
+   "postman"
+  ],
+  "preferred": [
+   "pytest",
+   "manual testing"
+  ],
+  "min_years": 1.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-051",
+  "title": "QA Automation Engineer",
+  "company": "Helio Cloud",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: 3+ years of experience. Hands-on experience with junit, jira, pytest, cypress, playwright, jmeter, postman. Nice to have: ci/cd, test automation, selenium.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/051",
+  "source": "sample",
+  "required": [
+   "junit",
+   "jira",
+   "pytest",
+   "cypress",
+   "playwright",
+   "jmeter",
+   "postman"
+  ],
+  "preferred": [
+   "ci/cd",
+   "test automation",
+   "selenium"
+  ],
+  "min_years": 3.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-052",
+  "title": "Senior QA Automation Engineer",
+  "company": "Helio Cloud",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: 5+ years of experience. Hands-on experience with cypress, pytest, jmeter, test automation, java, junit, postman. Nice to have: selenium, playwright, ci/cd.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/052",
+  "source": "sample",
+  "required": [
+   "cypress",
+   "pytest",
+   "jmeter",
+   "test automation",
+   "java",
+   "junit",
+   "postman"
+  ],
+  "preferred": [
+   "selenium",
+   "playwright",
+   "ci/cd"
+  ],
+  "min_years": 5.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-053",
+  "title": "Associate QA Automation Engineer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: Freshers and recent graduates welcome. Hands-on experience with jmeter, cypress, java, jira, test automation, pytest. Nice to have: playwright, selenium.",
+  "location": "Delhi NCR",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/053",
+  "source": "sample",
+  "required": [
+   "jmeter",
+   "cypress",
+   "java",
+   "jira",
+   "test automation",
+   "pytest"
+  ],
+  "preferred": [
+   "playwright",
+   "selenium"
+  ],
+  "min_years": 0.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-054",
+  "title": "Intern QA Automation Engineer",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Design and maintain automated end to end test suites. Plan test strategies and triage defects with developers. Integrate tests into CI pipelines. Requirements: Freshers and recent graduates welcome. Hands-on experience with test automation, manual testing, playwright, java, jira, selenium, junit. Nice to have: pytest, jmeter, ci/cd.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/054",
+  "source": "sample",
+  "required": [
+   "test automation",
+   "manual testing",
+   "playwright",
+   "java",
+   "jira",
+   "selenium",
+   "junit"
+  ],
+  "preferred": [
+   "pytest",
+   "jmeter",
+   "ci/cd"
+  ],
+  "min_years": 0.0,
+  "role_label": "QA Automation Engineer"
+ },
+ {
+  "id": "sample-055",
+  "title": "Intern Security Analyst",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: Freshers and recent graduates welcome. Hands-on experience with burp suite, network security, nmap, penetration testing, splunk, owasp. Nice to have: vulnerability assessment, wireshark, cybersecurity.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/055",
+  "source": "sample",
+  "required": [
+   "burp suite",
+   "network security",
+   "nmap",
+   "penetration testing",
+   "splunk",
+   "owasp"
+  ],
+  "preferred": [
+   "vulnerability assessment",
+   "wireshark",
+   "cybersecurity"
+  ],
+  "min_years": 0.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-056",
+  "title": "Junior Security Analyst",
+  "company": "Zenith Soft",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: 1+ years of experience. Hands-on experience with nmap, siem, owasp, cybersecurity, penetration testing, splunk. Nice to have: wireshark, linux, burp suite.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/056",
+  "source": "sample",
+  "required": [
+   "nmap",
+   "siem",
+   "owasp",
+   "cybersecurity",
+   "penetration testing",
+   "splunk"
+  ],
+  "preferred": [
+   "wireshark",
+   "linux",
+   "burp suite"
+  ],
+  "min_years": 1.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-057",
+  "title": "Security Analyst",
+  "company": "Pinegrove",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: 3+ years of experience. Hands-on experience with nmap, penetration testing, cybersecurity, burp suite, siem, linux. Nice to have: python, owasp, vulnerability assessment.",
+  "location": "Mumbai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/057",
+  "source": "sample",
+  "required": [
+   "nmap",
+   "penetration testing",
+   "cybersecurity",
+   "burp suite",
+   "siem",
+   "linux"
+  ],
+  "preferred": [
+   "python",
+   "owasp",
+   "vulnerability assessment"
+  ],
+  "min_years": 3.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-058",
+  "title": "Senior Security Analyst",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: 5+ years of experience. Hands-on experience with owasp, wireshark, nmap, cybersecurity, linux, penetration testing. Nice to have: python, siem.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/058",
+  "source": "sample",
+  "required": [
+   "owasp",
+   "wireshark",
+   "nmap",
+   "cybersecurity",
+   "linux",
+   "penetration testing"
+  ],
+  "preferred": [
+   "python",
+   "siem"
+  ],
+  "min_years": 5.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-059",
+  "title": "Associate Security Analyst",
+  "company": "Kestrel Tech",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: Freshers and recent graduates welcome. Hands-on experience with network security, linux, splunk, penetration testing, python, cybersecurity. Nice to have: owasp, nmap.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/059",
+  "source": "sample",
+  "required": [
+   "network security",
+   "linux",
+   "splunk",
+   "penetration testing",
+   "python",
+   "cybersecurity"
+  ],
+  "preferred": [
+   "owasp",
+   "nmap"
+  ],
+  "min_years": 0.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-060",
+  "title": "Intern Security Analyst",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Monitor alerts, investigate incidents and respond to threats. Run vulnerability scans and penetration tests. Harden systems and document security controls. Requirements: Freshers and recent graduates welcome. Hands-on experience with python, burp suite, penetration testing, nmap, owasp, splunk. Nice to have: vulnerability assessment, network security, cybersecurity.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/060",
+  "source": "sample",
+  "required": [
+   "python",
+   "burp suite",
+   "penetration testing",
+   "nmap",
+   "owasp",
+   "splunk"
+  ],
+  "preferred": [
+   "vulnerability assessment",
+   "network security",
+   "cybersecurity"
+  ],
+  "min_years": 0.0,
+  "role_label": "Cybersecurity Analyst"
+ },
+ {
+  "id": "sample-061",
+  "title": "Intern Customer Success Associate",
+  "company": "Brightline",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: Freshers and recent graduates welcome. Hands-on experience with hubspot, jira, email deliverability, agile, sql. Nice to have: salesforce, freshdesk, customer support.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/061",
+  "source": "sample",
+  "required": [
+   "hubspot",
+   "jira",
+   "email deliverability",
+   "agile",
+   "sql"
+  ],
+  "preferred": [
+   "salesforce",
+   "freshdesk",
+   "customer support"
+  ],
+  "min_years": 0.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-062",
+  "title": "Junior Customer Success Associate",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: 1+ years of experience. Hands-on experience with zendesk, jira, customer support, agile, sql. Nice to have: hubspot, freshdesk, crm.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/062",
+  "source": "sample",
+  "required": [
+   "zendesk",
+   "jira",
+   "customer support",
+   "agile",
+   "sql"
+  ],
+  "preferred": [
+   "hubspot",
+   "freshdesk",
+   "crm"
+  ],
+  "min_years": 1.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-063",
+  "title": "Customer Success Associate",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: 3+ years of experience. Hands-on experience with freshdesk, jira, hubspot, agile, crm, email deliverability. Nice to have: zendesk, salesforce.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/063",
+  "source": "sample",
+  "required": [
+   "freshdesk",
+   "jira",
+   "hubspot",
+   "agile",
+   "crm",
+   "email deliverability"
+  ],
+  "preferred": [
+   "zendesk",
+   "salesforce"
+  ],
+  "min_years": 3.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-064",
+  "title": "Senior Customer Success Associate",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: 5+ years of experience. Hands-on experience with jira, agile, hubspot, customer support, crm, email deliverability, sql. Nice to have: freshdesk, salesforce, zendesk.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/064",
+  "source": "sample",
+  "required": [
+   "jira",
+   "agile",
+   "hubspot",
+   "customer support",
+   "crm",
+   "email deliverability",
+   "sql"
+  ],
+  "preferred": [
+   "freshdesk",
+   "salesforce",
+   "zendesk"
+  ],
+  "min_years": 5.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-065",
+  "title": "Associate Customer Success Associate",
+  "company": "Fernleaf Labs",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: Freshers and recent graduates welcome. Hands-on experience with freshdesk, email deliverability, sql, customer success, jira. Nice to have: zendesk, salesforce, agile.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/065",
+  "source": "sample",
+  "required": [
+   "freshdesk",
+   "email deliverability",
+   "sql",
+   "customer success",
+   "jira"
+  ],
+  "preferred": [
+   "zendesk",
+   "salesforce",
+   "agile"
+  ],
+  "min_years": 0.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-066",
+  "title": "Intern Customer Success Associate",
+  "company": "Quartz Systems",
+  "description": "Responsibilities: Resolve customer tickets and own onboarding for new accounts. Review leads and flag fraudulent signups. Track account health in the CRM and reduce churn. Requirements: Freshers and recent graduates welcome. Hands-on experience with crm, agile, jira, customer support, freshdesk. Nice to have: customer success, email deliverability, sql.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/066",
+  "source": "sample",
+  "required": [
+   "crm",
+   "agile",
+   "jira",
+   "customer support",
+   "freshdesk"
+  ],
+  "preferred": [
+   "customer success",
+   "email deliverability",
+   "sql"
+  ],
+  "min_years": 0.0,
+  "role_label": "Customer Success Specialist"
+ },
+ {
+  "id": "sample-067",
+  "title": "Intern WordPress Developer",
+  "company": "Kestrel Tech",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: Freshers and recent graduates welcome. Hands-on experience with git, wordpress, javascript, html, mysql. Nice to have: react, seo, php.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/067",
+  "source": "sample",
+  "required": [
+   "git",
+   "wordpress",
+   "javascript",
+   "html",
+   "mysql"
+  ],
+  "preferred": [
+   "react",
+   "seo",
+   "php"
+  ],
+  "min_years": 0.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-068",
+  "title": "Junior WordPress Developer",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: 1+ years of experience. Hands-on experience with git, css, gatsby, javascript, php, seo, wordpress. Nice to have: react, mysql.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/068",
+  "source": "sample",
+  "required": [
+   "git",
+   "css",
+   "gatsby",
+   "javascript",
+   "php",
+   "seo",
+   "wordpress"
+  ],
+  "preferred": [
+   "react",
+   "mysql"
+  ],
+  "min_years": 1.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-069",
+  "title": "WordPress Developer",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: 3+ years of experience. Hands-on experience with css, seo, react, bootstrap, javascript, php, wordpress. Nice to have: gatsby, html, git.",
+  "location": "Remote",
+  "remote": true,
+  "url": "https://example.com/sample-jobs/069",
+  "source": "sample",
+  "required": [
+   "css",
+   "seo",
+   "react",
+   "bootstrap",
+   "javascript",
+   "php",
+   "wordpress"
+  ],
+  "preferred": [
+   "gatsby",
+   "html",
+   "git"
+  ],
+  "min_years": 3.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-070",
+  "title": "Senior WordPress Developer",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: 5+ years of experience. Hands-on experience with gatsby, php, javascript, css, mysql, seo, html. Nice to have: bootstrap, wordpress.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/070",
+  "source": "sample",
+  "required": [
+   "gatsby",
+   "php",
+   "javascript",
+   "css",
+   "mysql",
+   "seo",
+   "html"
+  ],
+  "preferred": [
+   "bootstrap",
+   "wordpress"
+  ],
+  "min_years": 5.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-071",
+  "title": "Associate WordPress Developer",
+  "company": "Kestrel Tech",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: Freshers and recent graduates welcome. Hands-on experience with bootstrap, gatsby, css, wordpress, git, html. Nice to have: javascript, seo.",
+  "location": "Bengaluru",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/071",
+  "source": "sample",
+  "required": [
+   "bootstrap",
+   "gatsby",
+   "css",
+   "wordpress",
+   "git",
+   "html"
+  ],
+  "preferred": [
+   "javascript",
+   "seo"
+  ],
+  "min_years": 0.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-072",
+  "title": "Intern WordPress Developer",
+  "company": "Lumen Data",
+  "description": "Responsibilities: Build and customise WordPress themes and plugins. Maintain marketing sites and improve page speed and SEO. Migrate content and manage hosting. Requirements: Freshers and recent graduates welcome. Hands-on experience with seo, css, javascript, react, wordpress. Nice to have: git, html, bootstrap.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/072",
+  "source": "sample",
+  "required": [
+   "seo",
+   "css",
+   "javascript",
+   "react",
+   "wordpress"
+  ],
+  "preferred": [
+   "git",
+   "html",
+   "bootstrap"
+  ],
+  "min_years": 0.0,
+  "role_label": "WordPress Developer"
+ },
+ {
+  "id": "sample-073",
+  "title": "Intern Digital Marketing Executive",
+  "company": "Atlas Digital",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: Freshers and recent graduates welcome. Hands-on experience with google ads, content writing, seo, email marketing, email deliverability, google analytics, excel. Nice to have: lead generation, crm, hubspot.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/073",
+  "source": "sample",
+  "required": [
+   "google ads",
+   "content writing",
+   "seo",
+   "email marketing",
+   "email deliverability",
+   "google analytics",
+   "excel"
+  ],
+  "preferred": [
+   "lead generation",
+   "crm",
+   "hubspot"
+  ],
+  "min_years": 0.0,
+  "role_label": "Digital Marketing Specialist"
+ },
+ {
+  "id": "sample-074",
+  "title": "Junior Digital Marketing Executive",
+  "company": "Orchid Analytics",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: 1+ years of experience. Hands-on experience with email marketing, crm, google ads, email deliverability, excel, hubspot, lead generation. Nice to have: google analytics, content writing.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/074",
+  "source": "sample",
+  "required": [
+   "email marketing",
+   "crm",
+   "google ads",
+   "email deliverability",
+   "excel",
+   "hubspot",
+   "lead generation"
+  ],
+  "preferred": [
+   "google analytics",
+   "content writing"
+  ],
+  "min_years": 1.0,
+  "role_label": "Digital Marketing Specialist"
+ },
+ {
+  "id": "sample-075",
+  "title": "Digital Marketing Executive",
+  "company": "Brightline",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: 3+ years of experience. Hands-on experience with email marketing, seo, crm, google ads, excel. Nice to have: content writing, lead generation, hubspot.",
+  "location": "Pune",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/075",
+  "source": "sample",
+  "required": [
+   "email marketing",
+   "seo",
+   "crm",
+   "google ads",
+   "excel"
+  ],
+  "preferred": [
+   "content writing",
+   "lead generation",
+   "hubspot"
+  ],
+  "min_years": 3.0,
+  "role_label": "Digital Marketing Specialist"
+ },
+ {
+  "id": "sample-076",
+  "title": "Senior Digital Marketing Executive",
+  "company": "Brightline",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: 5+ years of experience. Hands-on experience with google analytics, content writing, email marketing, seo, hubspot, lead generation. Nice to have: excel, crm.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/076",
+  "source": "sample",
+  "required": [
+   "google analytics",
+   "content writing",
+   "email marketing",
+   "seo",
+   "hubspot",
+   "lead generation"
+  ],
+  "preferred": [
+   "excel",
+   "crm"
+  ],
+  "min_years": 5.0,
+  "role_label": "Digital Marketing Specialist"
+ },
+ {
+  "id": "sample-077",
+  "title": "Associate Digital Marketing Executive",
+  "company": "NimbusWorks",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: Freshers and recent graduates welcome. Hands-on experience with email deliverability, seo, content writing, email marketing, hubspot, lead generation. Nice to have: crm, google ads.",
+  "location": "Hyderabad",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/077",
+  "source": "sample",
+  "required": [
+   "email deliverability",
+   "seo",
+   "content writing",
+   "email marketing",
+   "hubspot",
+   "lead generation"
+  ],
+  "preferred": [
+   "crm",
+   "google ads"
+  ],
+  "min_years": 0.0,
+  "role_label": "Digital Marketing Specialist"
+ },
+ {
+  "id": "sample-078",
+  "title": "Intern Digital Marketing Executive",
+  "company": "Kestrel Tech",
+  "description": "Responsibilities: Plan and run email and paid campaigns. Grow organic traffic through SEO and content. Report on funnel metrics and lead quality. Requirements: Freshers and recent graduates welcome. Hands-on experience with email marketing, hubspot, excel, google ads, content writing. Nice to have: google analytics, crm.",
+  "location": "Chennai",
+  "remote": false,
+  "url": "https://example.com/sample-jobs/078",
+  "source": "sample",
+  "required": [
+   "email marketing",
+   "hubspot",
+   "excel",
+   "google ads",
+   "content writing"
+  ],
+  "preferred": [
+   "google analytics",
+   "crm"
+  ],
+  "min_years": 0.0,
+  "role_label": "Digital Marketing Specialist"
+ }
+]
