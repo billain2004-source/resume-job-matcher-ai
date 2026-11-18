@@ -18,7 +18,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .embeddings import EmbeddingBackend, LSABackend
 from .models import Job, Match, Profile
-from .skills import find_skills, infer_roles, related
+from .skills import find_skills, infer_roles, related, role_specificity
 
 FEATURES = ["semantic", "lexical", "skills", "title", "level"]
 DEFAULT_WEIGHTS = {"semantic": 0.25, "lexical": 0.10, "skills": 0.40, "title": 0.15, "level": 0.10}
@@ -89,7 +89,8 @@ class Ranker:
         # skill IDF over this candidate pool
         df = Counter(s for j in jobs for s in set(j.required) | set(j.preferred))
         n = len(jobs)
-        idf = lambda s: math.log((n + 1) / (df.get(s, 0) + 1)) + 1.0
+        # rarer-in-pool skills and role-defining skills (wordpress) count more than generic ones (html, git)
+        idf = lambda s: (math.log((n + 1) / (df.get(s, 0) + 1)) + 1.0) * (1.0 + 2.0 * role_specificity(s))
         have = set(profile.skills)
         top_roles = [r for r, _ in profile.roles[:2]]
         wide_roles = [r for r, _ in profile.roles[:4]]

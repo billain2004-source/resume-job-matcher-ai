@@ -115,3 +115,11 @@ def test_api_text_and_errors():
     assert c.post("/api/match", data={"text": "no tech words at all in this resume text sample"}).status_code == 422
     up = c.post("/api/match", files={"file": ("cv.txt", ML_RESUME.encode())}, data={"top_k": 2})
     assert up.status_code == 200
+
+
+def test_missing_core_skill_is_penalised():
+    """A WordPress job should not outrank ML jobs for an ML candidate who lacks WordPress."""
+    resume = ("SKILLS\nPython, machine learning, scikit-learn, tensorflow, nlp, deep learning, html, css, "
+              "javascript, php, mysql, bootstrap, git\nEXPERIENCE\nIntern  Jan 2026 - Present")
+    r = Matcher("lsa").match(resume, top_k=3)
+    assert all("WordPress" not in m["job"]["title"] for m in r["matches"][:2])

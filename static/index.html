@@ -64,7 +64,7 @@ function render(r){
   if(r.skills_to_learn.length)h+=`<section class="card"><b>Skills that unlock the most of these jobs</b><p>${r.skills_to_learn.map(g=>`<span class="chip warn">${esc(g.skill)} · ${g.jobs_requiring} jobs</span>`).join('')}</p></section>`;
   const names={semantic:'Semantic',lexical:'Keywords',skills:'Skills',title:'Role fit',level:'Level'};
   h+=r.matches.map(m=>{const j=m.job;return `<section class="card job"><div class="ring" style="--p:${m.score}"><span>${Math.round(m.score)}</span></div><div>
-   <h3>${esc(j.title)}</h3><div class="meta">${esc(j.company)} · ${esc(j.location||'—')}${j.remote?' · Remote':''} · ${esc(j.source)}</div>
+   <h3>${esc(j.title)}</h3><div class="meta">${esc(j.company)} · ${esc(j.location||'—')}${j.remote&&!/remote/i.test(j.location||'')?' · Remote':''} · ${esc(j.source)}</div>
    <div class="bars">${Object.entries(m.components).map(([k,v])=>`<div class="bar"><small><span>${names[k]}</span><span>${Math.round(v*100)}</span></small><i><b style="width:${v*100}%"></b></i></div>`).join('')}</div>
    ${m.matched.length?`<div>${chips(m.matched,'ok')}</div>`:''}${m.transferable.length?`<div>${m.transferable.map(t=>`<span class="chip warn">${esc(t.needs)} ≈ ${esc(t.you_have)}</span>`).join('')}</div>`:''}
    ${m.missing_required.length?`<div>${chips(m.missing_required,'bad')}</div>`:''}

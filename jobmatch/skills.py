@@ -198,3 +198,11 @@ def related(skill: str, have: set[str]) -> str | None:
                 if h in grp and h != skill:
                     return h
     return None
+
+
+_ROLE_COUNT = Counter(sk for prof in ROLE_PROFILES.values() for sk in set(prof))
+
+
+def role_specificity(skill: str) -> float:
+    """1.0 for a skill that defines one role (wordpress), approaching 0 for ones shared by many (html, git)."""
+    return 1.0 / _ROLE_COUNT.get(skill, 1)
